@@ -1,2 +1,8 @@
 print("Hello World")
-git add pythonfile.py #this is the code to track all changes you make in this pythonfile
+list = [1,2,3]
+
+def iterator_list(list_a):
+    for i in list_a:
+        print(i)
+
+iterator_list(list_a)
